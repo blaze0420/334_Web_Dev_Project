@@ -1,0 +1,145 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+body{
+	background:black;
+}
+
+p{
+    padding: 5px 30px;
+}
+h3{
+    padding:10px 20px;
+}
+
+#wrapper{
+	margin:0 auto;
+	width:1020px;
+	border:6px solid white;
+	background:white;
+}
+#footer{
+    text-align:center;
+    font-size:12px;
+    font-weight:bold;
+    
+}
+#footer a{
+    color:black;
+    text-decoration:none;
+}
+#banner{
+	border:2px solid black;
+	background: url('images/banner.png') black no-repeat;
+	height:100px;
+}
+#content{
+    min-height:300px;
+}
+
+#links{
+	border: 5px solid black;
+	padding:8px;	
+}
+ul#menu{
+	font-weight:bold;
+	display: inline;
+}
+
+li.menu-item{
+	font-weight:bold;
+	display: inline;
+	padding: 10px;
+	height:25px;
+}
+
+li.menu-item a{
+	color:black;
+        text-decoration:none;
+}
+
+h1#page-title{
+    padding:15px
+}
+
+#register-form{
+    margin:20px 40px;
+    padding: 20px;
+    border:2px dotted #BBB;
+}
+.large_img{
+    display:block;
+    margin: 20px auto 10px auto;
+    border:2px solid Gray ;
+}
+p.caption{
+    width: 700px;
+    margin: 10px auto;
+    font-weight:bold;
+    border: 1px dotted #555;
+    background-color: #eee;
+    padding:10px;
+}
+#contextual-links{
+   width:800px;
+   margin:0 auto;
+   padding-right: 10px;
+   font-weight:bold;
+   text-align: right; 
+}
+
+#contextual-links a{
+    text-decoration:none;
+    color:gray;
+}
+
+table.photo-grid{
+    margin:30px auto;
+    vertical-align: top;
+}
+
+table.photo-grid tr td{
+    padding:10px 20px;
+}
+
+table.photo-grid tr td h4{
+    text-align:center;
+    padding-bottom:4px;
+}
+input.album-edit-check{
+    visibility:hidden;
+}
+td.img-selected{
+    background: #ffff94;
+    border:2px solid black;
+}
+td.img-deselected{
+    background: #fff;
+    border:2px solid white;
+}
+.big-submit:hover{
+    background-color:#ffff94;
+}
+.big-submit{
+    font-size:16pt;
+    border:4px black solid;
+    background-color:white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight:bold;
+    color:#222;
+}
+.form-align{
+    margin-left:65px;
+}
+
+.edit-thumb{
+    float:right;
+    margin:60px 80px 0 0;
+    border:2px solid black;
+}
+#front-img{
+    float:right;
+        margin:20px 80px 0 0;
+}

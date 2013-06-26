@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>MyShots</title>
+        <script type="text/javascript">          
+            function check(checkboxid){  
+                    var box = document.getElementById("checkbox"+checkboxid);                    
+                    var td = document.getElementById("td"+checkboxid);
+                    
+                    box.checked = !box.checked;
+                    
+                    if(box.checked)
+                        td.setAttribute("class", "img-selected");
+                    else
+                        td.setAttribute("class", "img-deselected");
+                    
+            }  
+        </script>
+	<LINK REL=StyleSheet HREF="styles.css" TYPE="text/css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="banner">
+			</div>
+			<div id="links">
+				<ul id="menu">
+					<li class="menu-item"><a href="index.jsp">Home</a></li>
+					<li class="menu-item"><a href="addphoto">Add Photo</a></li>
+					<li class="menu-item"><a href="addalbum">Add Album</a></li>
+					<li class="menu-item"><a href="viewphotos">Photos</a></li>
+					<li class="menu-item"><a href="viewalbums">Albums</a></li>
+					<li class="menu-item"><a href="usr">Login/Logout</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content">

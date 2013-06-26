@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<weblogic-web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-web-app http://xmlns.oracle.com/weblogic/weblogic-web-app/1.1/weblogic-web-app.xsd"
+                  xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">
+
+<context-root>Client</context-root>
+
+<virtual-directory-mapping>
+     <local-path>/home/colin/jdeveloper/mywork/334_Web_Dev_Project/Model/public_html</local-path>
+     <url-pattern>/Client/images/*</url-pattern>
+     <url-pattern>*.jpg</url-pattern>
+</virtual-directory-mapping>
+
+                  
+</weblogic-web-app>
