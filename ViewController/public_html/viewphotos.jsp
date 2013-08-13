@@ -25,7 +25,7 @@
             <td>
                 <h4><%=photos.get(i).getTitle()%></h4>
                 <a href="/Client/viewphoto?pid=<%=photos.get(i).getPid()%>">
-                <img src="/Client/images/<%=path%>">
+                <img height="200" width="200" src="/Client/images/<%=path%>">
                 </a>
             </td>
     

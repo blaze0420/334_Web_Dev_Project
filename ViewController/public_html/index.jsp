@@ -6,7 +6,7 @@
     ArrayList<Photo> p = Photo.getRecentPhotos(dbc, 1, 0);
 %>
 <jsp:include page="includes/header.html" />
-<img src="/Client/images/<%=p.get(0).getThumbFilename()%>" id="front-img">
+<img height="200" width="200" src="/Client/images/<%=p.get(0).getThumbFilename()%>" id="front-img">
 <h1 class="centertitle" id="page-title">Welcome to My Shots!</h1>
 <p>My Shots has been developed to allow users to share and organize 
 their photos. It's free and very simple to use so why not <a href="usr">get started</a> today!</p>

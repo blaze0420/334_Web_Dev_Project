@@ -203,7 +203,7 @@
    </hash>
    <hash n="oracle.jdeveloper.model.J2eeSettings">
       <value n="j2eeWebAppName" v="334_Web_Dev_Project-Model-webapp"/>
-      <value n="j2eeWebContextRoot" v="334_Web_Dev_Project-Model-context-root"/>
+      <value n="j2eeWebContextRoot" v="Client"/>
       <hash n="webContentSet">
          <list n="pattern-filters">
             <string v="+**"/>
@@ -216,6 +216,7 @@
    <hash n="oracle.jdeveloper.model.PathsConfiguration">
       <hash n="javaContentSet">
          <list n="pattern-filters">
+            <string v="-client/SQLTest.java"/>
             <string v="+**"/>
          </list>
          <list n="url-path">
@@ -228,7 +229,7 @@
          <hash n="Default">
             <value n="custom" v="false"/>
             <value n="name" v="Default"/>
-            <url n="targetURL" protocol="file" path="/D:/Documents/Ubuntu One/60_334/mywork/SVN_1/Client/src/client/usr.java"/>
+            <url n="targetURL" path="src/client/usr.java"/>
          </hash>
       </hash>
    </hash>

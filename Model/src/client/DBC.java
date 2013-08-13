@@ -12,7 +12,7 @@ import oracle.jdbc.pool.OracleDataSource;
 
 
 public class DBC {
-    String jdbcUrl = "jdbc:oracle:thin:@192.168.1.4:1521:XE";
+    String jdbcUrl = "jdbc:oracle:thin:@www.colinchristie.me:1822:XE";
     String userid = "colin";
     String password = "gfdhsjak1";
     

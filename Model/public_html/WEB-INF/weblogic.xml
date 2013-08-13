@@ -10,6 +10,11 @@
      <url-pattern>/Client/images/*</url-pattern>
      <url-pattern>*.jpg</url-pattern>
 </virtual-directory-mapping>
+<virtual-directory-mapping>
+     <local-path>/home/colin/jdeveloper/mywork/334_Web_Dev_Project/Model/public_html</local-path>
+     <url-pattern>/Client/images/*</url-pattern>
+     <url-pattern>*.png</url-pattern>
+</virtual-directory-mapping>
 
                   
 </weblogic-web-app>

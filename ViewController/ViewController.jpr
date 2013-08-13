@@ -191,7 +191,7 @@
          <hash n="Default">
             <value n="custom" v="false"/>
             <value n="name" v="Default"/>
-            <url n="targetURL" protocol="file" path="/D:/Documents/Ubuntu One/60_334/mywork/SVN_1/Client/public_html/index.jsp"/>
+            <url n="targetURL" path="public_html/index.jsp"/>
          </hash>
       </hash>
    </hash>
